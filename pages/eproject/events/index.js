@@ -1,10 +1,13 @@
 import { useRouter } from 'next/router'
 
 
-function ProjectsPage(){
+
+
+function ProjectPage(){
+
+
     const router = useRouter();
 
-    console.log(router.query)
 
     function loadProjectHandler(){
         // load data...
@@ -19,4 +22,4 @@ function ProjectsPage(){
     </div>
 }
 
-export default ProjectsPage
+export default ProjectPage
